@@ -1,0 +1,132 @@
+2020-03-01 01:32:40.487 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Starting main!!
+2020-03-01 01:32:42.491 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 2 , QueueSize [1] 
+2020-03-01 01:32:44.494 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 2 , QueueSize [2] 
+2020-03-01 01:32:47.513 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 2, QueueSize [1] 
+2020-03-01 01:32:50.516 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 2, QueueSize [0] 
+2020-03-01 01:32:52.517 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 74 , QueueSize [1] 
+2020-03-01 01:32:55.518 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 74, QueueSize [0] 
+2020-03-01 01:32:57.520 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 70 , QueueSize [1] 
+2020-03-01 01:32:59.520 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 57 , QueueSize [2] 
+2020-03-01 01:33:01.520 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 24 , QueueSize [3] 
+2020-03-01 01:33:03.520 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 54 , QueueSize [4] 
+2020-03-01 01:33:06.521 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 70, QueueSize [3] 
+2020-03-01 01:33:09.522 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 57, QueueSize [2] 
+2020-03-01 01:33:11.523 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 68 , QueueSize [3] 
+2020-03-01 01:33:13.523 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 34 , QueueSize [4] 
+2020-03-01 01:33:16.524 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 24, QueueSize [3] 
+2020-03-01 01:33:19.525 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 54, QueueSize [2] 
+2020-03-01 01:33:22.528 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 68, QueueSize [1] 
+2020-03-01 01:33:24.529 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 35 , QueueSize [2] 
+2020-03-01 01:33:24.530 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Producer done!!
+2020-03-01 01:33:27.530 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 34, QueueSize [1] 
+2020-03-01 01:33:30.530 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 35, QueueSize [0] 
+2020-03-01 01:33:30.531 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Consumer done!!
+2020-03-01 01:33:30.531 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Shutting down!!
+2020-03-01 01:56:23.476 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Starting main!!
+2020-03-01 01:56:23.982 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 7 , QueueSize [1] 
+2020-03-01 01:56:24.484 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 26 , QueueSize [2] 
+2020-03-01 01:56:24.984 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 33 , QueueSize [3] 
+2020-03-01 01:56:25.486 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 42 , QueueSize [4] 
+2020-03-01 01:56:25.987 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 63 , QueueSize [5] 
+2020-03-01 01:56:25.988 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - producer thread completed!!!
+2020-03-01 01:56:26.488 [pool-2-thread-4] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 99 , QueueSize [6] 
+2020-03-01 01:56:26.989 [pool-2-thread-4] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 86 , QueueSize [7] 
+2020-03-01 01:56:27.490 [pool-2-thread-4] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 75 , QueueSize [8] 
+2020-03-01 01:56:27.991 [pool-2-thread-4] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 40 , QueueSize [9] 
+2020-03-01 01:56:28.492 [pool-2-thread-4] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 27 , QueueSize [10] 
+2020-03-01 01:56:28.493 [pool-2-thread-4] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - producer thread completed!!!
+2020-03-01 01:56:28.993 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 1 , QueueSize [11] 
+2020-03-01 01:56:29.494 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 71 , QueueSize [12] 
+2020-03-01 01:56:29.994 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 15 , QueueSize [13] 
+2020-03-01 01:56:30.496 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 57 , QueueSize [14] 
+2020-03-01 01:56:30.997 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 91 , QueueSize [15] 
+2020-03-01 01:56:30.998 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - producer thread completed!!!
+2020-03-01 01:56:31.499 [pool-2-thread-3] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 9 , QueueSize [16] 
+2020-03-01 01:56:32.000 [pool-2-thread-3] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 29 , QueueSize [17] 
+2020-03-01 01:56:32.501 [pool-2-thread-3] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 3 , QueueSize [18] 
+2020-03-01 01:56:33.002 [pool-2-thread-3] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 76 , QueueSize [19] 
+2020-03-01 01:56:33.503 [pool-2-thread-3] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 16 , QueueSize [20] 
+2020-03-01 01:56:33.504 [pool-2-thread-3] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - producer thread completed!!!
+2020-03-01 01:56:33.905 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 7, QueueSize [19] 
+2020-03-01 01:56:34.306 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 26, QueueSize [18] 
+2020-03-01 01:56:34.707 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 33, QueueSize [17] 
+2020-03-01 01:56:35.108 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 42, QueueSize [16] 
+2020-03-01 01:56:35.509 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 63, QueueSize [15] 
+2020-03-01 01:56:35.910 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 99, QueueSize [14] 
+2020-03-01 01:56:36.312 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 86, QueueSize [13] 
+2020-03-01 01:56:36.713 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 75, QueueSize [12] 
+2020-03-01 01:56:37.114 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 40, QueueSize [11] 
+2020-03-01 01:56:37.515 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 27, QueueSize [10] 
+2020-03-01 01:56:37.916 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 1, QueueSize [9] 
+2020-03-01 01:56:38.317 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 71, QueueSize [8] 
+2020-03-01 01:56:38.717 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 15, QueueSize [7] 
+2020-03-01 01:56:39.118 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 57, QueueSize [6] 
+2020-03-01 01:56:39.519 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 91, QueueSize [5] 
+2020-03-01 01:56:39.520 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Consumer thread completed!!!
+2020-03-01 01:56:39.920 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 9, QueueSize [4] 
+2020-03-01 01:56:40.321 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 29, QueueSize [3] 
+2020-03-01 01:56:40.722 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 3, QueueSize [2] 
+2020-03-01 01:56:41.122 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 76, QueueSize [1] 
+2020-03-01 01:56:41.522 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 16, QueueSize [0] 
+2020-03-01 01:56:41.522 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Consumer thread completed!!!
+2020-03-01 01:56:41.523 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Producer done!!
+2020-03-01 01:56:41.524 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Producer done!!
+2020-03-01 01:56:41.525 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Producer done!!
+2020-03-01 01:56:41.525 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Producer done!!
+2020-03-01 01:56:41.526 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Consumer done!!
+2020-03-01 01:56:41.526 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Consumer done!!
+2020-03-01 01:56:41.527 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Shutting down!!
+2020-03-01 02:05:47.034 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Starting main!!
+2020-03-01 02:05:47.539 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 25 , QueueSize [1] 
+2020-03-01 02:05:48.041 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 75 , QueueSize [2] 
+2020-03-01 02:05:48.543 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 20 , QueueSize [3] 
+2020-03-01 02:05:48.944 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 25, QueueSize [2] 
+2020-03-01 02:05:49.347 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 75, QueueSize [1] 
+2020-03-01 02:05:49.748 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 20, QueueSize [0] 
+2020-03-01 02:05:50.249 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 17 , QueueSize [1] 
+2020-03-01 02:05:50.751 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 85 , QueueSize [2] 
+2020-03-01 02:05:51.252 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 9 , QueueSize [3] 
+2020-03-01 02:05:51.753 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 16 , QueueSize [4] 
+2020-03-01 02:05:52.255 [pool-2-thread-3] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 15 , QueueSize [5] 
+2020-03-01 02:05:52.757 [pool-2-thread-3] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 78 , QueueSize [6] 
+2020-03-01 02:05:53.258 [pool-2-thread-3] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 50 , QueueSize [7] 
+2020-03-01 02:05:53.759 [pool-2-thread-3] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 43 , QueueSize [8] 
+2020-03-01 02:05:54.260 [pool-2-thread-3] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 74 , QueueSize [9] 
+2020-03-01 02:05:54.261 [pool-2-thread-3] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - producer thread completed!!!
+2020-03-01 02:05:54.761 [pool-2-thread-4] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 79 , QueueSize [10] 
+2020-03-01 02:05:55.263 [pool-2-thread-4] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 94 , QueueSize [11] 
+2020-03-01 02:05:55.763 [pool-2-thread-4] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 86 , QueueSize [12] 
+2020-03-01 02:05:56.263 [pool-2-thread-4] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 14 , QueueSize [13] 
+2020-03-01 02:05:56.764 [pool-2-thread-4] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 7 , QueueSize [14] 
+2020-03-01 02:05:56.765 [pool-2-thread-4] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - producer thread completed!!!
+2020-03-01 02:05:57.265 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 98 , QueueSize [15] 
+2020-03-01 02:05:57.266 [pool-2-thread-2] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - producer thread completed!!!
+2020-03-01 02:05:57.666 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 17, QueueSize [14] 
+2020-03-01 02:05:58.067 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 85, QueueSize [13] 
+2020-03-01 02:05:58.468 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 9, QueueSize [12] 
+2020-03-01 02:05:58.969 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 85 , QueueSize [13] 
+2020-03-01 02:05:59.470 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item produced - 40 , QueueSize [14] 
+2020-03-01 02:05:59.471 [pool-2-thread-1] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - producer thread completed!!!
+2020-03-01 02:05:59.471 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Producer done!!
+2020-03-01 02:05:59.472 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Producer done!!
+2020-03-01 02:05:59.473 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Producer done!!
+2020-03-01 02:05:59.473 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Producer done!!
+2020-03-01 02:05:59.871 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 16, QueueSize [13] 
+2020-03-01 02:06:00.272 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 15, QueueSize [12] 
+2020-03-01 02:06:00.672 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 78, QueueSize [11] 
+2020-03-01 02:06:01.074 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 50, QueueSize [10] 
+2020-03-01 02:06:01.474 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 43, QueueSize [9] 
+2020-03-01 02:06:01.475 [pool-2-thread-6] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Consumer thread completed!!!
+2020-03-01 02:06:01.875 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 74, QueueSize [8] 
+2020-03-01 02:06:02.276 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 79, QueueSize [7] 
+2020-03-01 02:06:02.677 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 94, QueueSize [6] 
+2020-03-01 02:06:03.078 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 86, QueueSize [5] 
+2020-03-01 02:06:03.478 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 14, QueueSize [4] 
+2020-03-01 02:06:03.878 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 7, QueueSize [3] 
+2020-03-01 02:06:04.279 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 98, QueueSize [2] 
+2020-03-01 02:06:04.679 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 85, QueueSize [1] 
+2020-03-01 02:06:05.080 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Item removed - 40, QueueSize [0] 
+2020-03-01 02:06:05.081 [pool-2-thread-5] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Consumer thread completed!!!
+2020-03-01 02:06:05.081 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Consumer done!!
+2020-03-01 02:06:05.082 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Consumer done!!
+2020-03-01 02:06:05.082 [main] INFO  com.gn.mt.sync.ProduserConsuerExampleUsingWaitNotify - Shutting down!!
